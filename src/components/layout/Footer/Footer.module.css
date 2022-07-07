@@ -1,0 +1,18 @@
+.footer {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  background-color: var(--clr-bg-primary);
+  height: var(--footer-height);
+}
+
+.wrapper {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+
+.copyright {
+  font-size: 1.1rem;
+  color: var(--clr-text-primary);
+}

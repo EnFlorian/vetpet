@@ -29,6 +29,11 @@ picture {
   display: block;
 }
 
+button {
+  border: none;
+  background: none;
+}
+
 /* Accessability */
 @media (prefers-reduced-motion: reduce) {
   html:focus-within {

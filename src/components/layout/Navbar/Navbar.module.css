@@ -1,0 +1,26 @@
+.navbar {
+  background-color: var(--clr-bg-secondary);
+  height: var(--navbar-height);
+  display: flex;
+}
+
+.wrapper {
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+}
+
+.link {
+  color: var(--clr-text-primary);
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}

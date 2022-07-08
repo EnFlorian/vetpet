@@ -2,7 +2,7 @@
   display: flex;
   align-self: center;
   justify-content: center;
-  background-color: var(--clr-bg-primary);
+  background-color: var(--clr-bg-tertiary);
   height: var(--footer-height);
 }
 

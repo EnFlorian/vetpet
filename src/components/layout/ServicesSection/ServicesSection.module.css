@@ -1,7 +1,9 @@
 .wrapper {
+  padding: 3rem 0 5rem 0;
 }
 
 .services {
+  margin: 4rem 0;
   display: flex;
   gap: 1rem;
 }

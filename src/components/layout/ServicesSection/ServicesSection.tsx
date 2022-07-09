@@ -1,19 +1,17 @@
 import React from "react";
-import Slider from "react-slick";
-import { InfoCard, SectionHeader, ServiceCard } from "../../elements";
+import { SectionHeader, ServiceCard } from "../../elements";
 import styles from "./ServicesSection.module.css";
 const ServicesSection = () => {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 3,
+  const sectionHeaderContent = {
+    firstPart: "Our",
+    empPart: "Services",
+    description:
+      "We are offer many different service to make sure your animals are healthy and stay healthy for their entire life.",
   };
 
   return (
     <section className={`container ${styles.wrapper}`}>
-      <SectionHeader />
+      <SectionHeader {...sectionHeaderContent} />
       <div className={styles.services}>
         <ServiceCard />
         <ServiceCard />

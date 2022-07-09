@@ -1,4 +1,10 @@
-.themeSection {
+.teamSection {
+  padding: 7rem 0 5rem 0;
   background-color: #f5f5f5;
-  padding: 50px 0;
+}
+
+.team {
+  margin-top: 4rem;
+  display: flex;
+  gap: 2rem;
 }

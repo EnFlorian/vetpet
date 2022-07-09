@@ -1,5 +1,13 @@
 import type { NextPage } from "next";
-import { BlogSection, HeroSection, InfoSection, ServicesSection, TeamSection, TestimonialsSection } from "../components/layout";
+import {
+  BlogSection,
+  HeroSection,
+  InfoSection,
+  NewsletterSection,
+  ServicesSection,
+  TeamSection,
+  TestimonialsSection,
+} from "../components/layout";
 import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
@@ -11,6 +19,7 @@ const Home: NextPage = () => {
       <TeamSection />
       <BlogSection />
       <TestimonialsSection />
+      <NewsletterSection />
     </div>
   );
 };

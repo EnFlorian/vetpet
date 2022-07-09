@@ -1,10 +1,14 @@
+import Link from "next/link";
 import React from "react";
 import styles from "./TeamMemberCard.module.css";
 const TeamMemberCard = () => {
   return (
     <section className={styles.teamMemberCard}>
-      <div className={styles.teamMemberCard__image}>
-        <img src="./images/team-member-1.jpg" alt="team-member-1" />
+      <img src="../../assets/images/doc1.jpg" alt="team-member-1" className={styles.image} />
+      <div className={styles.content}>
+        <h3 className={styles.name}> John Doe</h3>
+        <p className={styles.position}>Owner, CEO, Founder</p>
+        <button className={styles.button}> Contact </button>
       </div>
     </section>
   );

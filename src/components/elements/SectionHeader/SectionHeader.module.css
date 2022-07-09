@@ -1,0 +1,52 @@
+.sectionHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 70%;
+  margin: 0 auto;
+  height: 100%;
+  padding: 7rem 0 4rem 0rem;
+}
+
+.title {
+  position: relative;
+  font-size: 2rem;
+  color: var(--clr-text-primary);
+  margin-bottom: 2rem;
+}
+
+.title::after {
+  position: absolute;
+  content: "";
+  display: block;
+  bottom: -0.7rem;
+  left: 35%;
+
+  width: 30%;
+  height: 2px;
+  background-color: var(--clr-accent-primary);
+  margin-top: 0.5rem;
+}
+/* 
+.title::before {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 3rem;
+  height: 2px;
+  bottom: -0.8rem;
+  left: 41%;
+  background-color: var(--clr-accent-primary);
+  margin-top: 0.5rem;
+} */
+
+.description {
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--clr-text-secondary);
+}
+
+.accent {
+  color: var(--clr-accent-primary);
+}

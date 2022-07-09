@@ -4,7 +4,9 @@ import styles from "./TeamMemberCard.module.css";
 const TeamMemberCard = () => {
   return (
     <section className={styles.teamMemberCard}>
-      <img src="../../assets/images/doc1.jpg" alt="team-member-1" className={styles.image} />
+      <div className={styles.imageWrapper}>
+        <img src="../../assets/images/doc1.jpg" alt="team-member-1" className={styles.image} />
+      </div>
       <div className={styles.content}>
         <h3 className={styles.name}> John Doe</h3>
         <p className={styles.position}>Owner, CEO, Founder</p>

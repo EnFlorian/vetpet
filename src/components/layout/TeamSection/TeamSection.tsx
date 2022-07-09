@@ -11,7 +11,7 @@ const sectionHeaderContent = {
 const TeamSection = () => {
   return (
     <section className={styles.teamSection}>
-      <div className="container">
+      <div className={`container ${styles.wrapper}`}>
         <SectionHeader {...sectionHeaderContent} />
         <div className={styles.team}>
           <TeamMemberCard />

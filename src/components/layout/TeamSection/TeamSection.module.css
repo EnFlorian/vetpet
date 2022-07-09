@@ -1,11 +1,10 @@
 .teamSection {
-  padding: 7rem 0 5rem 0;
+  padding: 5rem 0 5rem 0;
 }
 
 .wrapper {
   display: flex;
   flex-direction: column;
-  background-color: red;
   /* align-items: center; */
 }
 

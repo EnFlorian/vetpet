@@ -32,6 +32,7 @@ picture {
 button {
   border: none;
   background: none;
+  cursor: pointer;
 }
 
 /* Accessability */

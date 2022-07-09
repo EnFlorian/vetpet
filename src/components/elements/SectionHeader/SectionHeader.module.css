@@ -6,7 +6,6 @@
   max-width: 70%;
   margin: 0 auto;
   height: 100%;
-  padding: 7rem 0 4rem 0rem;
 }
 
 .title {
@@ -22,7 +21,6 @@
   display: block;
   bottom: -0.7rem;
   left: 35%;
-
   width: 30%;
   height: 2px;
   background-color: var(--clr-accent-primary);

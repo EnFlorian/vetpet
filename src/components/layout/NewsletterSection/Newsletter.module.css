@@ -9,6 +9,7 @@
   padding: 4rem 2rem;
   border-left: 10px solid var(--clr-accent-primary);
   border-right: 10px solid var(--clr-accent-primary);
+  margin-top: 5rem;
 }
 
 .wrapper {

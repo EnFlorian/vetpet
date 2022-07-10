@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import {
   BlogSection,
+  ContactSection,
   HeroSection,
   InfoSection,
   NewsletterSection,
@@ -20,8 +21,8 @@ const Home: NextPage = () => {
       <StatsSection />
       <TeamSection />
       <BlogSection />
-      <TestimonialsSection />
       <NewsletterSection />
+      <ContactSection />
     </div>
   );
 };

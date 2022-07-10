@@ -4,30 +4,31 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  background-color: var(--clr-bg-neutral);
   border-radius: 10px;
-  box-shadow: var(--box-shadow);
-  background-color: red;
 }
 
 .leftContent {
   display: flex;
   flex-direction: column;
-  width: 100%;
   height: 100%;
-  background-color: blue;
+  margin-right: 1rem;
+
+  flex: 2;
 }
 
 .imageWrapper {
-  width: 80%;
+  width: 100%;
   overflow: hidden;
 }
 
 .rightContent {
   display: flex;
+  flex: 3;
   flex-direction: column;
-  width: 100%;
+  padding: 0 2rem;
   height: 100%;
+  background-color: var(--clr-bg-neutral);
+  /* box-shadow: var(--box-shadow); */
 }
 
 .author {
@@ -35,4 +36,7 @@
   font-weight: bold;
   background-color: var(--clr-bg-neutral);
   color: var(--clr-text-primary);
+  border-bottom: 2px solid var(--clr-accent-primary);
+  margin-bottom: 2rem;
+  padding: 2rem 0;
 }

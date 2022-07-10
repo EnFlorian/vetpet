@@ -7,5 +7,17 @@ import TestimonialCard from "./TestimonialCard/TestimonialCard";
 import TeamMemberCard from "./TeamMemberCard/TeamMemberCard";
 import InfoCard from "./InfoCard/InfoCard";
 import BlogCard from "./BlogCard/BlogCard";
+import ScheduleCard from "./ScheduleCard/ScheduleCard";
 
-export { Button, CardSlider, HeroCard, SectionHeader, ServiceCard, TestimonialCard, TeamMemberCard, InfoCard, BlogCard };
+export {
+  Button,
+  CardSlider,
+  HeroCard,
+  SectionHeader,
+  ServiceCard,
+  TestimonialCard,
+  TeamMemberCard,
+  InfoCard,
+  BlogCard,
+  ScheduleCard,
+};

@@ -11,16 +11,16 @@
   --transition-base: all 0.3s ease-in-out;
   --transition-slow: all 0.4s ease-in-out;
 
-  --box-shadow: 0px 4px 4px hsla(0, 0%, 0%, 0.25);
+  --box-shadow: 0px 2px 8px hsla(0, 0%, 0%, 0.25);
   --box-shadow-hover: 0px 4px 4px hsla(0, 0%, 0%, 0.5);
 
   --scale-base: transform(scale(1.05));
 
   --clr-header: #091223;
 
-  --clr-bg-primary: #faedcd;
+  --clr-bg-primary: #e3d5ca;
   --clr-bg-secondary: #ffffff;
-  --clr-bg-tertiary: #edede9;
+  --clr-bg-tertiary: hsl(60, 10%, 95%);
   --clr-bg-neutral: #ffffff;
 
   --clr-text-primary: #050505;
@@ -28,7 +28,7 @@
   --clr-text-tertiary: #999;
   --clr-text-neutral: hsl(0, 0%, 100%);
 
-  --clr-accent-primary: #d4a373;
+  --clr-accent-primary: #d5bdaf;
   --clr-accent-secondary: #ccd5ae;
 
   --clr-danger-primary: #f07167;

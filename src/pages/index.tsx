@@ -8,7 +8,6 @@ import {
   ServicesSection,
   StatsSection,
   TeamSection,
-  TestimonialsSection,
 } from "../components/layout";
 import styles from "../styles/Home.module.css";
 

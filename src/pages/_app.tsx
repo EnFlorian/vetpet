@@ -4,11 +4,12 @@ import "/node_modules/slick-carousel/slick/slick.css";
 import "/node_modules/slick-carousel/slick/slick-theme.css";
 import type { AppProps } from "next/app";
 import { Fragment } from "react";
-import { Footer, Navbar } from "../components/layout";
+import { Footer, HeaderSection, Navbar } from "../components/layout";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <Fragment>
+      <HeaderSection />
       <Navbar />
       <Component {...pageProps} />
       <Footer />

@@ -16,6 +16,8 @@
 
   --scale-base: transform(scale(1.05));
 
+  --clr-header: #091223;
+
   --clr-bg-primary: #faedcd;
   --clr-bg-secondary: #ffffff;
   --clr-bg-tertiary: #edede9;

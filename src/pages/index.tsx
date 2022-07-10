@@ -21,7 +21,6 @@ const Home: NextPage = () => {
       <TeamSection />
       <BlogSection />
       <NewsletterSection />
-      <ContactSection />
     </div>
   );
 };

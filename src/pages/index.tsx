@@ -5,6 +5,7 @@ import {
   InfoSection,
   NewsletterSection,
   ServicesSection,
+  StatsSection,
   TeamSection,
   TestimonialsSection,
 } from "../components/layout";
@@ -16,6 +17,7 @@ const Home: NextPage = () => {
       <HeroSection />
       <InfoSection />
       <ServicesSection />
+      <StatsSection />
       <TeamSection />
       <BlogSection />
       <TestimonialsSection />

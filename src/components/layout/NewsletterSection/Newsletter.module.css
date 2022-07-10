@@ -1,6 +1,6 @@
 .subscriptionSection {
-  background-color: var(--clr-bg-primary);
-  box-shadow: var(--box-shadow-primary);
+  background-color: var(--clr-bg-secondary);
+  box-shadow: var(--box-shadow);
   border-radius: 0.3rem;
   display: flex;
   flex-direction: column;

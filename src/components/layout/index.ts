@@ -9,6 +9,7 @@ import TeamSection from "./TeamSection/TeamSection";
 import TestimonialsSection from "./TestimonialsSection/TestimonialsSection";
 import InfoSection from "./InfoSection/InfoSection";
 import NewsletterSection from "./NewsletterSection/NewsletterSection";
+import StatsSection from "./StatsSection/StatsSection";
 
 export {
   AdviceSection,
@@ -22,4 +23,5 @@ export {
   TestimonialsSection,
   InfoSection,
   NewsletterSection,
+  StatsSection,
 };

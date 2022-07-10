@@ -22,7 +22,7 @@
   --clr-bg-neutral: #ffffff;
 
   --clr-text-primary: #050505;
-  --clr-text-secondary: #333;
+  --clr-text-secondary: hsl(0, 0%, 35%);
   --clr-text-tertiary: #999;
   --clr-text-neutral: hsl(0, 0%, 100%);
 

@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Navbar.module.css";
+import { FaPaw } from "react-icons/fa";
 import { navigation } from "../../../data/navigation";
 
 export interface INavLink {
@@ -12,6 +13,7 @@ const Navbar = () => {
     <div className={styles.navbar}>
       <div className={`container ${styles.wrapper}`}>
         <div className={styles.logo}>
+          <FaPaw className={styles.icon} />
           <h1>VetPet</h1>
         </div>
         <ul className={styles.menu}>

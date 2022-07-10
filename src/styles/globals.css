@@ -16,19 +16,20 @@
 
   --scale-base: transform(scale(1.05));
 
-  --clr-bg-primary: #f5bc86bf;
-  --clr-bg-secondary: #fafafa;
-  --clr-bg-tertiary: #f5f5f5;
+  --clr-bg-primary: #faedcd;
+  --clr-bg-secondary: #ffffff;
+  --clr-bg-tertiary: #edede9;
+  --clr-bg-neutral: #ffffff;
 
   --clr-text-primary: #050505;
   --clr-text-secondary: #333;
   --clr-text-tertiary: #999;
   --clr-text-neutral: hsl(0, 0%, 100%);
 
-  --clr-accent-primary: #00bcd4;
-  --clr-accent-secondary: #fafafa;
+  --clr-accent-primary: #d4a373;
+  --clr-accent-secondary: #ccd5ae;
 
-  --clr-danger-primary: #f44336;
+  --clr-danger-primary: #f07167;
   --clr-danger-secondary: #f44336;
 }
 

@@ -1,0 +1,38 @@
+.blogCard {
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: var(--clr-bg-neutral);
+  border-radius: 10px;
+  box-shadow: var(--box-shadow);
+  background-color: red;
+}
+
+.leftContent {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background-color: blue;
+}
+
+.imageWrapper {
+  width: 80%;
+  overflow: hidden;
+}
+
+.rightContent {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.author {
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: var(--clr-bg-neutral);
+  color: var(--clr-text-primary);
+}

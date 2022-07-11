@@ -35,23 +35,20 @@
   --clr-danger-secondary: #f44336;
 }
 
-html[data-theme="dark"] {
-}
-
 /* Scrollbar */
 /* Width */
 ::-webkit-scrollbar {
-  width: 0.4rem;
+  width: 0.5rem;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: var(--clr-lighter);
+  background: var(--clr-bg-tertiary);
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: var(--clr-dark);
+  background: var(--clr-accent-primary);
   height: 2rem;
   /* border-radius: 1rem; */
 }

@@ -1,31 +1,16 @@
 import React from "react";
 import styles from "./StatsSection.module.css";
-import { FaTooth } from "react-icons/fa";
+import statsItems from "../../../data/stats-cards";
+import { StatsCard } from "../../elements";
+
 const StatsSection = () => {
+  const cards = statsItems.map((card, idx) => {
+    return <StatsCard key={idx} {...card} />;
+  });
+
   return (
     <ul className={styles.statsSection}>
-      <ul className={`container ${styles.list}`}>
-        <li className={styles.item}>
-          <FaTooth className={styles.icon} />
-          <span className={styles.number}>100</span>
-          <p className={styles.text}>Dogs Adopted</p>
-        </li>
-        <li className={styles.item}>
-          <FaTooth className={styles.icon} />
-          <span className={styles.number}>500</span>
-          <p className={styles.text}>Dogs Adopted</p>
-        </li>
-        <li className={styles.item}>
-          <FaTooth className={styles.icon} />
-          <span className={styles.number}>300</span>
-          <p className={styles.text}>Dogs Adopted</p>
-        </li>
-        <li className={styles.item}>
-          <FaTooth className={styles.icon} />
-          <span className={styles.number}>100</span>
-          <p className={styles.text}>Dogs Adopted</p>
-        </li>
-      </ul>
+      <ul className={`container ${styles.list}`}>{cards}</ul>
     </ul>
   );
 };

@@ -6,5 +6,18 @@ import TeamMemberCard from "./TeamMemberCard/TeamMemberCard";
 import InfoCard from "./InfoCard/InfoCard";
 import BlogCard from "./BlogCard/BlogCard";
 import ScheduleCard from "./ScheduleCard/ScheduleCard";
+import StatsCard from "./StatsCard/StatsCard";
+import InfoSelectionCard from "./InfoSelectionCard/InfoSelectionCard";
 
-export { CardSlider, HeroCard, SectionHeader, ServiceCard, TeamMemberCard, InfoCard, BlogCard, ScheduleCard };
+export {
+  CardSlider,
+  HeroCard,
+  SectionHeader,
+  ServiceCard,
+  TeamMemberCard,
+  InfoCard,
+  BlogCard,
+  ScheduleCard,
+  StatsCard,
+  InfoSelectionCard,
+};

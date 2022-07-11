@@ -23,12 +23,12 @@
 
 .rightContent {
   display: flex;
-  flex: 3;
   flex-direction: column;
-  padding: 0 2rem;
+  flex: 3;
+  padding: 2rem 2rem 3rem 2rem;
   height: 100%;
   background-color: var(--clr-bg-neutral);
-  /* box-shadow: var(--box-shadow); */
+  overflow-y: scroll;
 }
 
 .author {
@@ -38,5 +38,62 @@
   color: var(--clr-text-primary);
   border-bottom: 2px solid var(--clr-accent-primary);
   margin-bottom: 2rem;
-  padding: 2rem 0;
+  padding-bottom: 2rem;
+}
+
+.name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--clr-text-primary);
+  margin-bottom: 0.5rem;
+}
+
+.position {
+  font-size: 1.2rem;
+  color: var(--clr-text-secondary);
+}
+
+.blog {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  color: var(--clr-text-primary);
+  font-size: 1.4rem;
+}
+
+.description {
+  font-size: 1.1rem;
+  color: var(--clr-text-secondary);
+  margin-bottom: 2rem;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.instruction {
+  font-size: 1.4rem;
+  color: var(--clr-text-primary);
+}
+
+.item {
+  position: relative;
+  font-size: 1.1rem;
+  margin-bottom: 0rem;
+  margin-left: 1.5rem;
+  color: var(--clr-text-secondary);
+}
+
+.item::before {
+  position: absolute;
+  top: -1.1rem;
+  left: -1.5rem;
+  content: "•";
+  font-size: 2.5rem;
+  margin-right: 0.5rem;
+  color: var(--clr-accent-primary);
 }

@@ -17,7 +17,9 @@ const BlogCard = () => {
         <div className={styles.blog}>
           <h3 className={styles.title}>How to keep your pet healthy</h3>
           <p className={styles.description}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod, nisi eu consectetur consectetur.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod, nisi eu consectetur consectetur. Lorem
+            ipsum dolor sit amet consectetur adipisicing elit. Culpa, quibusdam voluptates, quo hic dicta, facilis veritatis aut
+            consequatur fugiat facere delectus id ipsam ducimus accusantium tenetur eveniet ut nemo obcaecati?
           </p>
 
           <h4 className={styles.instruction}>How to keep your pet healthy</h4>

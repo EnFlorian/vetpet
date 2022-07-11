@@ -1,0 +1,29 @@
+.wrapper {
+  height: calc(100vh - var(--navbar-height) - var(--header-height));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font-size: 7rem;
+  color: var(--clr-text-primary);
+}
+
+.text {
+  font-size: 2rem;
+  color: var(--clr-text-primary);
+  margin-bottom: 2rem;
+}
+
+.link {
+  background-color: var(--clr-accent-primary);
+
+  border-radius: 0.3rem;
+  border: none;
+  color: var(--clr-text-neutral);
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  transition: var(--transition-fast);
+}

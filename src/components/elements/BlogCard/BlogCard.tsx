@@ -1,33 +1,52 @@
 import React from "react";
 import styles from "./BlogCard.module.css";
 
-const BlogCard = () => {
+export interface IBlogCardProps {
+  authorName: string;
+  authorPosition: string;
+  authorImage: string;
+  authorAlt: string;
+  blogTitle: string;
+  blogText: string;
+  instructionsTitle: string;
+  instructions: string[];
+}
+
+const BlogCard = ({
+  authorName,
+  authorPosition,
+  authorImage,
+  authorAlt,
+  blogTitle,
+  blogText,
+  instructionsTitle,
+  instructions,
+}: IBlogCardProps) => {
   return (
     <section className={styles.blogCard}>
       <div className={styles.leftContent}>
         <div className={styles.imageWrapper}>
-          <img src="/assets/images/doc2.jpg" alt="blog-image" />
+          <img src={authorImage} alt={authorAlt} />
         </div>
       </div>
       <section className={styles.rightContent}>
         <div className={styles.author}>
-          <h2 className={styles.name}>Dr. Doolittle Daniel</h2>
-          <p className={styles.position}> Owner of VetPet</p>
+          <h2 className={styles.name}>{authorName}</h2>
+          <p className={styles.position}> {authorPosition}</p>
         </div>
         <div className={styles.blog}>
-          <h3 className={styles.title}>How to keep your pet healthy</h3>
-          <p className={styles.description}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod, nisi eu consectetur consectetur. Lorem
-            ipsum dolor sit amet consectetur adipisicing elit. Culpa, quibusdam voluptates, quo hic dicta, facilis veritatis aut
-            consequatur fugiat facere delectus id ipsam ducimus accusantium tenetur eveniet ut nemo obcaecati?
-          </p>
+          <h3 className={styles.title}>{blogTitle}</h3>
+          <p className={styles.description}>{blogText}</p>
 
-          <h4 className={styles.instruction}>How to keep your pet healthy</h4>
+          <h4 className={styles.instruction}>{instructionsTitle}</h4>
           <ul className={styles.list}>
-            <li className={styles.item}> lorem ipsum dolor sit amet</li>
-            <li className={styles.item}> lorem ipsum dolor sit amet</li>
-            <li className={styles.item}> lorem ipsum dolor sit amet</li>
-            <li className={styles.item}> lorem ipsum dolor sit amet</li>
+            {instructions.map((instruction, idx) => {
+              return (
+                <li className={styles.item} key={idx}>
+                  {instruction}
+                </li>
+              );
+            })}
           </ul>
         </div>
       </section>

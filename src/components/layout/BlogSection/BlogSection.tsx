@@ -1,6 +1,7 @@
 import React from "react";
 import { BlogCard, SectionHeader } from "../../elements";
 import styles from "./BlogSection.module.css";
+import blogPosts from "../../../data/blog-cards";
 
 const sectionHeaderContent = {
   firstPart: "Care",
@@ -10,13 +11,15 @@ const sectionHeaderContent = {
 };
 
 const BlogSection = () => {
+  const cards = blogPosts.map((blogPost, idx) => {
+    return <BlogCard key={idx} {...blogPost} />;
+  });
+
   return (
     <section className={styles.blogSection}>
       <div className={`container ${styles.wrapper}`}>
         <SectionHeader {...sectionHeaderContent} />
-        <div className={styles.cards}>
-          <BlogCard />
-        </div>
+        <div className={styles.cards}>{cards}</div>
       </div>
     </section>
   );

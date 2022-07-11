@@ -14,7 +14,7 @@ const team = [
   {
     name: "Michael Simmer",
     position: "Veterinary Surgeon",
-    image: "../../assets/images/doc3.jpg",
+    image: "../../assets/images/doc5.jpg",
     alt: "team member",
   },
 ];

@@ -2,7 +2,6 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import {
   BlogSection,
-  ContactSection,
   HeroSection,
   InfoSection,
   NewsletterSection,

@@ -1,6 +1,6 @@
 .wrapper {
   background-color: var(--clr-bg-secondary);
-  height: 28rem;
+  height: 30rem;
   border-top: 5px solid var(--clr-accent-primary);
   display: flex;
   flex-direction: column;
@@ -12,20 +12,21 @@
 }
 
 .title {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   color: var(--clr-text-primary);
   margin-bottom: 2rem;
 }
 
 .description {
   font-size: 0.9rem;
+  color: var(--clr-text-secondary);
 }
 
 .button {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
   max-width: 10rem;
   border: 3px solid var(--clr-accent-primary);
   width: 100%;
@@ -39,4 +40,20 @@
 .button:hover {
   background-color: var(--clr-accent-primary);
   color: var(--clr-text-neutral);
+}
+
+.iconWrapper {
+  border-radius: 50%;
+  height: 7rem;
+  width: 7rem;
+  border: 3px solid var(--clr-accent-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.icon {
+  font-size: 3rem;
+  color: var(--clr-accent-primary);
 }

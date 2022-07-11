@@ -5,7 +5,7 @@ const ScheduleCard = () => {
     <article className={`container ${styles.scheduleCard}`}>
       <div className={styles.leftContent}>
         <div className={styles.imageWrapper}>
-          <img src="/assets/images/doc3.jpg" alt="info-image" className={styles.image} width="320px" height="400px" />
+          <img src="/assets/images/doc3.jpg" alt="info-image" className={styles.image} />
         </div>
       </div>
       <section className={styles.rightContent}>

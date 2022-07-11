@@ -1,6 +1,6 @@
 import { FaAmbulance, FaClipboard, FaClock } from "react-icons/fa";
 import styles from "../components/layout/InfoSection/InfoSection.module.css";
-const infoCards = [
+const infoSelectionCards = [
   {
     tab: 0,
     tabIdx: 1,
@@ -21,4 +21,21 @@ const infoCards = [
   },
 ];
 
-export default infoCards;
+const infoDetailsCards = [
+  {
+    title: "Yearly Checkups",
+    image: "/assets/images/treatment.jpg",
+    imageAlt: "Checkup",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  },
+  {
+    title: "24/7 Emergency Service",
+    image: "/assets/images/emergency.jpg",
+    imageAlt: "Emergency",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  },
+];
+
+export { infoSelectionCards, infoDetailsCards };

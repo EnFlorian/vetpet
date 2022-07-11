@@ -25,6 +25,7 @@
 
 .description {
   color: var(--clr-text-primary);
+  font-size: 1.2rem;
 }
 
 .button {
@@ -45,4 +46,10 @@
   border-bottom: 5px solid var(--clr-accent-primary);
   padding: 0 0 0.3rem 0.3rem;
   /* padding: 2rem; */
+}
+
+.image {
+  width: 25rem;
+  height: 30rem;
+  object-fit: cover;
 }

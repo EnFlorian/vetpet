@@ -12,12 +12,12 @@ const StatsSection = () => {
         </li>
         <li className={styles.item}>
           <FaTooth className={styles.icon} />
-          <span className={styles.number}>100</span>
+          <span className={styles.number}>500</span>
           <p className={styles.text}>Dogs Adopted</p>
         </li>
         <li className={styles.item}>
           <FaTooth className={styles.icon} />
-          <span className={styles.number}>100</span>
+          <span className={styles.number}>300</span>
           <p className={styles.text}>Dogs Adopted</p>
         </li>
         <li className={styles.item}>

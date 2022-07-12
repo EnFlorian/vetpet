@@ -1,5 +1,5 @@
 import { FaAmbulance, FaClipboard, FaClock } from "react-icons/fa";
-import styles from "../components/layout/InfoSection/InfoSection.module.css";
+import styles from "../components/elements/InfoSelectionCard/InfoSelectionCard.module.css";
 const infoSelectionCards = [
   {
     tab: 0,

@@ -31,7 +31,7 @@ const infoDetailsCards = [
   },
   {
     title: "24/7 Emergency Service",
-    image: "/assets/images/emergency.jpg",
+    image: "/assets/images/dentistry.jpg",
     imageAlt: "Emergency",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",

@@ -71,3 +71,38 @@
   height: 30rem;
   object-fit: cover;
 }
+
+/* ==== Media Queries ==== */
+
+@media (max-width: 920px) {
+  .scheduleCard {
+    flex-direction: column;
+    padding: 0 0;
+  }
+
+  .button {
+    max-width: 80%;
+  }
+
+  .image {
+    width: 100%;
+    height: auto;
+  }
+
+  .imageWrapper {
+    border-left: none;
+    padding: 0.5rem 0;
+    border-top: 5px solid var(--clr-accent-primary);
+  }
+
+  .timeTable {
+    max-width: 90%;
+  }
+
+  .rightContent {
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}

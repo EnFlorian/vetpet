@@ -54,3 +54,15 @@
 .button {
   text-transform: uppercase;
 }
+
+/* ==== Media Queries ==== */
+
+@media (max-width: 850px) {
+  .teamMemberCard {
+    height: 45rem;
+  }
+  .image {
+    height: 35rem;
+    object-position: top;
+  }
+}

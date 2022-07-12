@@ -13,3 +13,19 @@
   align-items: center;
   justify-content: space-between;
 }
+
+/* ==== Media Queries ==== */
+
+@media (max-width: 920px) {
+  .statsSection {
+    height: 30rem;
+    margin: 2 0;
+  }
+
+  .list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    justify-items: center;
+  }
+}

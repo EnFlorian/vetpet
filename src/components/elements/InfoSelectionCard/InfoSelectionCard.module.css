@@ -53,3 +53,34 @@
   margin-right: 0.5rem;
   color: var(--clr-text-secondary);
 }
+
+/* ==== Media Queries ==== */
+
+@media (max-width: 620px) {
+  .option {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .icon {
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .option {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .option p {
+    font-size: 0.9rem;
+  }
+
+  .icon {
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+  }
+}

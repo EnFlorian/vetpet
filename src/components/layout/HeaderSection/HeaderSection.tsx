@@ -2,8 +2,11 @@ import React from "react";
 import styles from "./HeaderSection.module.css";
 import { FaMapMarkerAlt, FaPhone } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+import { useUIContext } from "../../../state/context";
 
 const HeaderSection = () => {
+  const { setIsAppointmentModalOpen } = useUIContext();
+
   return (
     <section className={styles.headerSection}>
       <div className={`container ${styles.wrapper}`}>
@@ -24,7 +27,9 @@ const HeaderSection = () => {
           </ul>
         </section>
         <section className={styles.rightContent}>
-          <button className={styles.button}> Book an Appointment </button>
+          <button className={styles.button} onClick={() => setIsAppointmentModalOpen(true)}>
+            Book an Appointment
+          </button>
         </section>
       </div>
     </section>

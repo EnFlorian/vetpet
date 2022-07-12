@@ -50,4 +50,9 @@
   border-radius: 0.2rem;
   background-color: var(--clr-accent-primary);
   margin-right: 1rem;
+  transition: var(--transition-fast);
+}
+
+.button:hover {
+  background-color: var(--clr-accent-secondary);
 }

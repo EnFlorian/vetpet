@@ -19,8 +19,4 @@ export const navigation = [
     name: "Blog",
     path: "/blog",
   },
-  {
-    name: "Contact",
-    path: "/contact",
-  },
 ];

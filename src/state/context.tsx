@@ -3,11 +3,13 @@ import reducer from "./reducer";
 
 const initialState: IUIState = {
   isAppointmentModalOpen: false,
+  isMobileMenuOpen: false,
 };
 
 const UIContext = createContext<IUIContext>({
   ...initialState,
   setIsAppointmentModalOpen: () => {},
+  setIsMobileMenuOpen: () => {},
 });
 
 export const UIProvider = ({ children }: IProbs) => {
@@ -20,11 +22,19 @@ export const UIProvider = ({ children }: IProbs) => {
     });
   };
 
+  const setIsMobileMenuOpen = (isMobileMenuOpen: boolean) => {
+    dispatch({
+      type: "SET_IS_MOBILE_MENU_OPEN",
+      payload: isMobileMenuOpen,
+    });
+  };
+
   return (
     <UIContext.Provider
       value={{
         ...state,
         setIsAppointmentModalOpen,
+        setIsMobileMenuOpen,
       }}
     >
       {children}

@@ -1,6 +1,7 @@
 .navbar {
   background-color: var(--clr-bg-secondary);
   height: var(--navbar-height);
+  align-items: center;
   display: flex;
   position: sticky;
   top: 0;
@@ -36,4 +37,27 @@
   font-weight: 600;
   padding: 0.5rem 1rem;
   cursor: pointer;
+}
+
+.mobileMenu {
+  display: none;
+}
+
+@media (max-width: 700px) {
+  .link {
+    display: none;
+  }
+
+  .mobileMenu {
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 3rem;
+    cursor: pointer;
+  }
+
+  .mobileMenu:hover {
+    color: var(--clr-accent-primary);
+  }
 }

@@ -5,6 +5,7 @@ import {
   BlogSection,
   HeroSection,
   InfoSection,
+  MobileNavbar,
   NewsletterSection,
   ServicesSection,
   StatsSection,
@@ -14,7 +15,7 @@ import { useUIContext } from "../state/context";
 import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
-  const { isAppointmentModalOpen } = useUIContext();
+  const { isAppointmentModalOpen, isMobileMenuOpen } = useUIContext();
   return (
     <>
       <Head>
@@ -29,6 +30,7 @@ const Home: NextPage = () => {
       <BlogSection />
       <NewsletterSection />
       {isAppointmentModalOpen && <AppointmentModal />}
+      {isMobileMenuOpen && <MobileNavbar />}
     </>
   );
 };

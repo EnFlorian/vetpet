@@ -8,6 +8,7 @@ import TeamSection from "./TeamSection/TeamSection";
 import InfoSection from "./InfoSection/InfoSection";
 import NewsletterSection from "./NewsletterSection/NewsletterSection";
 import StatsSection from "./StatsSection/StatsSection";
+import MobileNavbar from "./MobileNavbar/MobileNavbar";
 
 export {
   BlogSection,
@@ -20,4 +21,5 @@ export {
   InfoSection,
   NewsletterSection,
   StatsSection,
+  MobileNavbar,
 };

@@ -2,6 +2,8 @@ import React from "react";
 import styles from "./Navbar.module.css";
 import { FaPaw } from "react-icons/fa";
 import { navigation } from "../../../data/navigation";
+import { GiHamburgerMenu } from "react-icons/gi";
+import { useUIContext } from "../../../state/context";
 
 export interface INavLink {
   name: string;
@@ -9,6 +11,7 @@ export interface INavLink {
 }
 
 const Navbar = () => {
+  const { setIsMobileMenuOpen } = useUIContext();
   return (
     <div className={styles.navbar}>
       <div className={`container ${styles.wrapper}`}>
@@ -22,6 +25,9 @@ const Navbar = () => {
               <a href={item.path}>{item.name}</a>
             </li>
           ))}
+          <li className={styles.mobileMenu} onClick={() => setIsMobileMenuOpen(true)}>
+            <GiHamburgerMenu />
+          </li>
         </ul>
       </div>
     </div>

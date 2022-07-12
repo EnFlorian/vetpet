@@ -13,17 +13,16 @@
 
 .text {
   font-size: 2rem;
-  color: var(--clr-text-primary);
   margin-bottom: 2rem;
+  color: var(--clr-text-primary);
 }
 
 .link {
-  background-color: var(--clr-accent-primary);
-
   border-radius: 0.3rem;
   border: none;
-  color: var(--clr-text-neutral);
   padding: 0.5rem 1rem;
   font-size: 1.2rem;
+  color: var(--clr-text-neutral);
+  background-color: var(--clr-accent-primary);
   transition: var(--transition-fast);
 }

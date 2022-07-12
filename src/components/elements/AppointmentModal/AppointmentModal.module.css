@@ -9,7 +9,6 @@
   padding: 3.5rem 4rem 2rem 4rem;
   margin-top: 7rem;
   border-radius: 0.5rem;
-  /* border: 5px solid var(--clr-accent-primary); */
   box-shadow: var(--box-shadow);
   z-index: 999;
 }

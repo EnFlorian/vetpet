@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Newsletter.module.css";
+
 const NewsletterSection = () => {
   return (
     <section className={`container ${styles.subscriptionSection}`}>

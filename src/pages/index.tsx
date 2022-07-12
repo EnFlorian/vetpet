@@ -21,15 +21,13 @@ const Home: NextPage = () => {
         <title>VetPet</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
-      <div className={styles.container}>
-        <HeroSection />
-        <InfoSection />
-        <ServicesSection />
-        <StatsSection />
-        <TeamSection />
-        <BlogSection />
-        <NewsletterSection />
-      </div>
+      <HeroSection />
+      <InfoSection />
+      <ServicesSection />
+      <StatsSection />
+      <TeamSection />
+      <BlogSection />
+      <NewsletterSection />
       {isAppointmentModalOpen && <AppointmentModal />}
     </>
   );

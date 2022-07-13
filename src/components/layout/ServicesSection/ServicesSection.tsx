@@ -20,7 +20,7 @@ const ServicesSection = () => {
   });
 
   return (
-    <section className={`container ${styles.wrapper}`}>
+    <section id="services" className={`container ${styles.wrapper}`}>
       <SectionHeader {...sectionHeaderContent} />
       <ul className={styles.services}>{cards}</ul>
     </section>

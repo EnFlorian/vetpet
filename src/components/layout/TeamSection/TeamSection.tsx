@@ -6,7 +6,7 @@ import team from "../../../data/team-cards";
 const sectionHeaderContent = {
   firstPart: "Meet the",
   empPart: "Team",
-  description: "We are a team of dedicated pet lovers who are determined about keeping your loved ones healthy and happy.",
+  description: "We are a team of dedicated pet lovers who are determined about keeping your loved ones healthy and happy."
 };
 
 const TeamSection = () => {
@@ -15,7 +15,7 @@ const TeamSection = () => {
   });
 
   return (
-    <section className={styles.teamSection}>
+    <section id="team" className={styles.teamSection}>
       <div className={`container ${styles.wrapper}`}>
         <SectionHeader {...sectionHeaderContent} />
         <div className={styles.team}>{cards}</div>

@@ -16,7 +16,7 @@ const BlogSection = () => {
   });
 
   return (
-    <section className={styles.blogSection}>
+    <section id="blog" className={styles.blogSection}>
       <div className={`container ${styles.wrapper}`}>
         <SectionHeader {...sectionHeaderContent} />
         <div className={styles.cards}>{cards}</div>

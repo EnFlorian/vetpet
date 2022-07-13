@@ -50,7 +50,7 @@
 }
 
 .row:nth-child(odd) {
-  background-color: var(--clr-accent-primary);
+  background-color: var(--clr-bg-primary);
 }
 
 .day {

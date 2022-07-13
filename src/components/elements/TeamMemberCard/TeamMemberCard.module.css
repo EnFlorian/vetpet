@@ -55,6 +55,14 @@
   text-transform: uppercase;
 }
 
+.button:hover {
+  color: var(--clr-accent-secondary);
+}
+
+.button:focus {
+  outline: none;
+}
+
 /* ==== Media Queries ==== */
 
 @media (max-width: 850px) {

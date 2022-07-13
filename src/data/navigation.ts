@@ -1,26 +1,27 @@
 export const navigation = [
   {
     name: "Home",
-    path: "/",
-    offSet: 5,
+    path: "home",
+    offSet: 0,
   },
   {
     name: "About",
-    path: "/about",
-    offSet: 5,
+    path: "about",
+    offSet: -69,
   },
   {
     name: "Services",
-    path: "/services",
+    path: "services",
+    offSet: -69,
   },
   {
     name: "Team",
-    path: "/team",
-    offSet: 5,
+    path: "team",
+    offSet: -20,
   },
   {
     name: "Blog",
-    path: "/blog",
-    offSet: 5,
+    path: "blog",
+    offSet: -0,
   },
 ];

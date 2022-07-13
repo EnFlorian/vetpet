@@ -8,7 +8,7 @@ const HeaderSection = () => {
   const { setIsAppointmentModalOpen } = useUIContext();
 
   return (
-    <section className={styles.headerSection}>
+    <section id="home" className={styles.headerSection}>
       <div className={`container ${styles.wrapper}`}>
         <section className={styles.leftContent}>
           <ul className={styles.list}>

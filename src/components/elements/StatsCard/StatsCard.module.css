@@ -21,17 +21,47 @@
   font-size: 1.8rem;
   color: var(--clr-text-secondary);
   font-weight: 500;
+  color: var(--clr-accent-secondary);
 }
 
 .number::after {
   position: absolute;
   text-align: center;
-  color: var(--clr-text-secondary);
-
+  color: var(--clr-accent-secondary);
   content: "+";
   display: block;
   top: -1.2rem;
   left: 90%;
   font-size: 2rem;
   font-weight: 500;
+}
+
+.text {
+  font-weight: 500;
+  color: var(--clr-text-secondary);
+}
+
+@media (max-width: 530px) {
+  .item {
+    height: 10rem;
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 0 2rem;
+  }
+
+  .icon {
+    font-size: 4rem;
+    margin-right: 2rem;
+  }
+
+  .number {
+    font-size: 1.8rem;
+    margin-right: 2rem;
+  }
+
+  .text {
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
 }

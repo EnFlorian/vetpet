@@ -38,3 +38,10 @@
     margin-top: 2rem;
   }
 }
+
+@media (max-width: 530px) {
+  .teamSection {
+    padding: 0;
+    margin-top: 2rem;
+  }
+}

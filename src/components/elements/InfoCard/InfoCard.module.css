@@ -87,3 +87,9 @@
     border-top: 5px solid var(--clr-accent-primary);
   }
 }
+
+@media (max-width: 500px) {
+  .infoCard {
+    padding: 0.5rem;
+  }
+}

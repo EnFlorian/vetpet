@@ -29,3 +29,13 @@
     justify-items: center;
   }
 }
+
+@media (max-width: 530px) {
+  .statsSection {
+    height: 50rem;
+    margin: 1 0;
+  }
+  .list {
+    grid-template-columns: 1fr;
+  }
+}

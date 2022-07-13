@@ -26,7 +26,7 @@ const BlogCard = ({
     <section className={styles.blogCard}>
       <div className={styles.leftContent}>
         <div className={styles.imageWrapper}>
-          <img src={authorImage} alt={authorAlt} />
+          <img src={authorImage} alt={authorAlt} className={styles.image} />
         </div>
       </div>
       <section className={styles.rightContent}>

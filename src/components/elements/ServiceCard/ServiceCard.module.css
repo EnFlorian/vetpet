@@ -20,6 +20,7 @@
 .description {
   font-size: 0.9rem;
   color: var(--clr-text-secondary);
+  text-align: center;
 }
 
 .button {

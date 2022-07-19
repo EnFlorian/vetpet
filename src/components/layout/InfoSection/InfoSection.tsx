@@ -5,7 +5,6 @@ import { infoSelectionCards, infoDetailsCards } from "../../../data/info-cards";
 
 const InfoSection = () => {
   const [tab, setTab] = React.useState(1);
-  const scheduleCard = useRef();
 
   const tabs = infoSelectionCards.map((card, idx) => {
     return <InfoSelectionCard key={idx} handlerFunction={setTab} {...card} />;

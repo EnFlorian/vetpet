@@ -6,8 +6,8 @@ import React from "react";
 
 const customStyles = {
   overlay: {
-    backgroundColor: "rgba(0, 0, 0, 0.0)",
-    zIndex: "10",
+    backgroundColor: "rgba(0, 0, 0, 0.75)",
+    zIndex: "9999",
   },
   content: {
     top: "50%",
@@ -30,6 +30,7 @@ const AppointmentModal = () => {
 
   const handleSubmit = (e: React.MouseEvent<HTMLButtonElement>) => {
     e.preventDefault();
+    //demo purposes
     setSending(true);
     setTimeout(() => {
       setSending(false);
@@ -38,17 +39,12 @@ const AppointmentModal = () => {
   };
 
   return (
-    <Modal
-      isOpen={isAppointmentModalOpen}
-      onRequestClose={() => setIsAppointmentModalOpen(false)}
-      style={customStyles}
-      contentLabel="Confirm Delete"
-    >
+    <Modal isOpen={isAppointmentModalOpen} onRequestClose={() => setIsAppointmentModalOpen(false)} style={customStyles}>
       <section className={styles.wrapper}>
         <button className={styles.close} onClick={() => setIsAppointmentModalOpen(false)}>
           <IoCloseCircleSharp className={styles.icon} />
         </button>
-        <h2 className={styles.title}>Appointment Request</h2>
+        <h2 className={styles.title}>Request Appointment</h2>
         <p className={styles.description}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod.</p>
         <form className={styles.form}>
           <input className={styles.input} type="text" placeholder="Name..." />

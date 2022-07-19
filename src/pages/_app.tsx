@@ -3,16 +3,17 @@ import "../styles/reset.css";
 import "/node_modules/slick-carousel/slick/slick.css";
 import "/node_modules/slick-carousel/slick/slick-theme.css";
 import type { AppProps } from "next/app";
-import { Footer, HeaderSection, Navbar } from "../components/layout";
 import { UIProvider } from "../state/context";
+import Head from "next/head";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <UIProvider>
-      <HeaderSection />
-      <Navbar />
+      <Head>
+        <title>VetPet</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <Component {...pageProps} />
-      <Footer />
     </UIProvider>
   );
 }

@@ -26,10 +26,15 @@ Modal.setAppElement("#__next");
 
 const AppointmentModal = () => {
   const { isAppointmentModalOpen, setIsAppointmentModalOpen } = useUIContext();
+  const [sending, setSending] = React.useState(false);
 
   const handleSubmit = (e: React.MouseEvent<HTMLButtonElement>) => {
     e.preventDefault();
-    setIsAppointmentModalOpen(false);
+    setSending(true);
+    setTimeout(() => {
+      setSending(false);
+      setIsAppointmentModalOpen(false);
+    }, 1000);
   };
 
   return (
@@ -51,7 +56,7 @@ const AppointmentModal = () => {
           <input className={styles.input} type="text" placeholder="Phone..." />
           <textarea className={styles.textArea} placeholder="Enter a Message..." />
           <button className={styles.button} onClick={(e) => handleSubmit(e)}>
-            Send Message
+            {sending ? "Sending..." : "Submit"}
           </button>
         </form>
       </section>

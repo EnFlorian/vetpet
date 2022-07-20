@@ -8,6 +8,8 @@
   margin-top: 3rem;
 }
 
+/* ==== Media Queries ==== */
+
 @media (max-width: 400px) {
   .blogSection {
     padding: 2rem 0;

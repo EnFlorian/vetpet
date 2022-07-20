@@ -11,6 +11,7 @@ export interface ITeamMemberCardProps {
 
 const TeamMemberCard = ({ name, position, image, alt }: ITeamMemberCardProps) => {
   const { setIsAppointmentModalOpen } = useUIContext();
+
   return (
     <section className={styles.teamMemberCard}>
       <div className={styles.imageWrapper}>

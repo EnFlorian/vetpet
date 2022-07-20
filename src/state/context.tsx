@@ -1,4 +1,5 @@
 import { createContext, useContext, useReducer } from "react";
+import { IProbs, IUIContext, IUIState } from "../types/general";
 import reducer from "./reducer";
 
 const initialState: IUIState = {

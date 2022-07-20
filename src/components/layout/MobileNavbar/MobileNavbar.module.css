@@ -45,6 +45,8 @@
   color: var(--clr-accent-primary);
 }
 
+/* ==== Media Queries ==== */
+
 @media screen and (min-width: 750px) {
   .mobile {
     display: none;

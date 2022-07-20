@@ -78,6 +78,8 @@
   background-color: var(--clr-accent-secondary);
 }
 
+/* ==== Media Queries ==== */
+
 @media (max-width: 500px) {
   .subscriptionSection {
     margin-top: 5rem;

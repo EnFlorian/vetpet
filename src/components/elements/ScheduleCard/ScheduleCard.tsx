@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./ScheduleCard.module.css";
 import schedule from "../../../data/schedule";
+
 const ScheduleCard = () => {
   return (
     <article className={`container ${styles.scheduleCard}`}>

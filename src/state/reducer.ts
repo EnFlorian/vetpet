@@ -1,3 +1,5 @@
+import { IUIState, UIActions } from "../types/general";
+
 const reducer = (state: IUIState, action: UIActions) => {
   switch (action.type) {
     case "SET_IS_APPOINTMENT_MODAL_OPEN":

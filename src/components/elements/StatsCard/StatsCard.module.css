@@ -41,6 +41,8 @@
   color: var(--clr-text-secondary);
 }
 
+/* ==== Media Queries ==== */
+
 @media (max-width: 530px) {
   .item {
     height: 10rem;

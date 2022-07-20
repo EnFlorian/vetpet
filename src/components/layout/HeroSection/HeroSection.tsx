@@ -5,6 +5,7 @@ import styles from "./HeroSection.module.css";
 
 const HeroSection = () => {
   const { setIsAppointmentModalOpen } = useUIContext();
+
   return (
     <section className={styles.wrapper}>
       <div className={`container ${styles.container}`}>

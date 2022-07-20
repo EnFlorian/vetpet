@@ -37,6 +37,11 @@
   font-weight: 600;
   padding: 0.5rem 1rem;
   cursor: pointer;
+  transition: var(--transition-fast);
+}
+
+.link:hover {
+  color: var(--clr-accent-secondary);
 }
 
 .mobileMenu {

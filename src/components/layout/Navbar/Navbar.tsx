@@ -1,4 +1,4 @@
-import React, { ReactText } from "react";
+import React from "react";
 import styles from "./Navbar.module.css";
 import { FaPaw } from "react-icons/fa";
 import { navigation } from "../../../data/navigation";

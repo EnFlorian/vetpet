@@ -63,6 +63,10 @@
   margin: 0 auto;
 }
 
+.active {
+  color: var(--clr-accent-secondary);
+}
+
 @media (max-width: 1200px) {
   .container {
     width: calc(100% - 2rem);

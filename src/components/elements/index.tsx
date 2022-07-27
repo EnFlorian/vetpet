@@ -6,18 +6,6 @@ import InfoCard from "./InfoCard/InfoCard";
 import BlogCard from "./BlogCard/BlogCard";
 import ScheduleCard from "./ScheduleCard/ScheduleCard";
 import StatsCard from "./StatsCard/StatsCard";
-import InfoSelectionCard from "./InfoSelectionCard/InfoSelectionCard";
 import AppointmentModal from "./AppointmentModal/AppointmentModal";
 
-export {
-  HeroCard,
-  SectionHeader,
-  ServiceCard,
-  TeamMemberCard,
-  InfoCard,
-  BlogCard,
-  ScheduleCard,
-  StatsCard,
-  InfoSelectionCard,
-  AppointmentModal,
-};
+export { HeroCard, SectionHeader, ServiceCard, TeamMemberCard, InfoCard, BlogCard, ScheduleCard, StatsCard, AppointmentModal };

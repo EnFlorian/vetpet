@@ -19,7 +19,9 @@ const HeroSection = () => {
           </button>
         </div>
         <div className={styles.rightContent}>
-          <Image src="/assets/images/pattern.png" alt="hero-image" className={styles.image} width="550px" height="400px" />
+          <div className={styles.imageWrapper}>
+            <Image src="/assets/images/pattern.png" alt="hero-image" className={styles.image} width="600px" height="450px" />
+          </div>
         </div>
       </div>
     </section>

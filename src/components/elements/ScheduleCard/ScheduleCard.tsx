@@ -11,6 +11,7 @@ const ScheduleCard = () => {
         </div>
       </div>
       <section className={styles.rightContent}>
+        <h2 className={styles.title}>Schedule</h2>
         <section className={styles.timeTable}>
           <div className={styles.row}>
             <p className={styles.day}>Monday </p>

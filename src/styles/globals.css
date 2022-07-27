@@ -18,7 +18,7 @@
 
   --clr-header: hsl(219, 59%, 9%);
 
-  --clr-bg-primary: hsl(26, 31%, 84%);
+  --clr-bg-primary: hsl(26, 31%, 75%);
   --clr-bg-secondary: hsl(0, 0%, 100%);
   --clr-bg-tertiary: hsl(60, 10%, 95%);
   --clr-bg-neutral: hsl(0, 0%, 100%);
@@ -28,8 +28,8 @@
   --clr-text-tertiary: hsl(0, 0%, 60%);
   --clr-text-neutral: hsl(0, 0%, 100%);
 
-  --clr-accent-primary: hsl(22, 31%, 76%);
-  --clr-accent-secondary: hsl(22, 31%, 71%);
+  --clr-accent-primary: hsl(26, 31%, 75%);
+  --clr-accent-secondary: hsl(26, 31%, 65%);
 
   --clr-danger-primary: #f07167;
   --clr-danger-secondary: #f44336;

@@ -25,7 +25,7 @@ const customStyles = {
 Modal.setAppElement("#__next");
 
 const AppointmentModal = () => {
-  const { isAppointmentModalOpen, setIsAppointmentModalOpen } = useUIContext();
+  const { isAppointmentModalOpen, setIsAppointmentModalOpen, setIsNotificationModalOpen } = useUIContext();
   const [sending, setSending] = React.useState(false);
 
   const handleSubmit = (e: React.MouseEvent<HTMLButtonElement>) => {
@@ -35,6 +35,7 @@ const AppointmentModal = () => {
     setTimeout(() => {
       setSending(false);
       setIsAppointmentModalOpen(false);
+      setIsNotificationModalOpen(true);
     }, 1000);
   };
 

@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 import { Fragment } from "react";
-import { AppointmentModal } from "../components/elements";
+import { AppointmentModal, NotificationModal } from "../components/elements";
 import {
   BlogSection,
   Footer,
@@ -17,7 +17,7 @@ import {
 import { useUIContext } from "../state/context";
 
 const Home: NextPage = () => {
-  const { isAppointmentModalOpen, isMobileMenuOpen } = useUIContext();
+  const { isAppointmentModalOpen, isMobileMenuOpen, isNotificationModalOpen } = useUIContext();
   return (
     <Fragment>
       <HeaderSection />
@@ -31,6 +31,9 @@ const Home: NextPage = () => {
       <NewsletterSection />
       <Footer />
       {isAppointmentModalOpen && <AppointmentModal />}
+      {isNotificationModalOpen && (
+        <NotificationModal message="Thank You!" description="You will shortly receive a confirmation by email." />
+      )}
       {isMobileMenuOpen && <MobileNavbar />}
     </Fragment>
   );

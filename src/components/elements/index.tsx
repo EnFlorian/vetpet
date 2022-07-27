@@ -7,5 +7,17 @@ import BlogCard from "./BlogCard/BlogCard";
 import ScheduleCard from "./ScheduleCard/ScheduleCard";
 import StatsCard from "./StatsCard/StatsCard";
 import AppointmentModal from "./AppointmentModal/AppointmentModal";
+import NotificationModal from "./NotificationModal/NotificationModal";
 
-export { HeroCard, SectionHeader, ServiceCard, TeamMemberCard, InfoCard, BlogCard, ScheduleCard, StatsCard, AppointmentModal };
+export {
+  HeroCard,
+  SectionHeader,
+  ServiceCard,
+  TeamMemberCard,
+  InfoCard,
+  BlogCard,
+  ScheduleCard,
+  StatsCard,
+  AppointmentModal,
+  NotificationModal,
+};

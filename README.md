@@ -9,8 +9,7 @@
 
 
 ## 👩‍💻 Live Website
-
-### [VetPet (Vercel)](vetpet-rosy.vercel.app)
+### [VetPet (Vercel)](https://vetpet-rosy.vercel.app)
 
 ## Offline Demo
 

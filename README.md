@@ -8,10 +8,18 @@
  - Fully Responsive
 
 
-## 👩‍💻 Live Demo
-##### Go To something.com
+## 👩‍💻 Live Website
 
-[Live Preview](enflorian.com)
+### [VetPet (Vercel)](vetpet-rosy.vercel.app)
+
+## Offline Demo
+
+### Desktop Preview
+![VetPet](/demo/vetpet-desktop-demo.gif)
+
+### Mobile Preview
+![VetPet](/demo/vetpet-mobile-demo.gif)
+
 
 
  

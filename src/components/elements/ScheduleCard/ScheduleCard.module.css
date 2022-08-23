@@ -56,27 +56,27 @@
 }
 
 .day {
+  color: inherit;
   font-size: 1.1rem;
   font-weight: 500;
-  color: inherit;
 }
 
 .time {
+  color: inherit;
   font-size: 1.1rem;
   font-weight: 500;
   text-align: end;
-  color: inherit;
 }
 
 .image {
-  width: 25rem;
   height: 30rem;
   object-fit: cover;
+  width: 25rem;
 }
 
 .title {
-  font-size: 2rem;
   color: var(--clr-accent-primary);
+  font-size: 2rem;
   margin-bottom: 2rem;
 }
 
@@ -93,14 +93,14 @@
   }
 
   .image {
-    width: 100%;
     height: auto;
+    width: 100%;
   }
 
   .imageWrapper {
     border-left: none;
-    padding: 0.5rem 0;
     border-top: 5px solid var(--clr-accent-primary);
+    padding: 0.5rem 0;
   }
 
   .timeTable {
@@ -108,9 +108,9 @@
   }
 
   .rightContent {
-    margin-top: 2rem;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
     text-align: center;
   }
 }

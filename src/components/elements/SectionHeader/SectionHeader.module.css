@@ -16,21 +16,21 @@
 }
 
 .title::after {
-  position: absolute;
+  background-color: var(--clr-accent-primary);
+  bottom: -0.7rem;
   content: "";
   display: block;
-  bottom: -0.7rem;
-  left: 35%;
-  width: 30%;
   height: 2px;
-  background-color: var(--clr-accent-primary);
+  left: 35%;
   margin-top: 0.5rem;
+  position: absolute;
+  width: 30%;
 }
 
 .description {
-  text-align: center;
-  font-size: 1.1rem;
   color: var(--clr-text-secondary);
+  font-size: 1.1rem;
+  text-align: center;
 }
 
 .accent {

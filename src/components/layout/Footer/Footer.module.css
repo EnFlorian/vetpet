@@ -1,19 +1,23 @@
 .footer {
-  margin-top: 5rem;
-  display: flex;
   align-self: center;
-  justify-content: center;
   background-color: var(--clr-bg-tertiary);
+  display: flex;
   height: var(--footer-height);
+  justify-content: center;
+  margin-top: 5rem;
 }
 
 .wrapper {
-  display: flex;
   align-self: center;
+  display: flex;
   justify-content: center;
 }
 
 .copyright {
-  font-size: 1.1rem;
   color: var(--clr-text-primary);
+  font-size: 1.1rem;
+}
+
+.accent {
+  color: var(--clr-accent-secondary);
 }

@@ -1,53 +1,53 @@
 .wrapper {
-  position: relative;
-  background-color: var(--clr-bg-secondary);
-  display: flex;
-  flex-direction: column;
   align-items: center;
-  width: 32rem;
-  height: 37rem;
-  padding: 3.5rem 4rem 2rem 4rem;
-  margin-top: 7rem;
+  background-color: var(--clr-bg-secondary);
   border-radius: 0.5rem;
   box-shadow: var(--box-shadow);
+  display: flex;
+  flex-direction: column;
+  height: 37rem;
+  margin-top: 7rem;
+  padding: 3.5rem 4rem 2rem 4rem;
+  position: relative;
+  width: 32rem;
   z-index: 999;
 }
 
 .title {
+  color: var(--clr-text-primary);
   font-size: 1.8rem;
   font-weight: 700;
-  color: var(--clr-text-primary);
   margin-bottom: 0.5rem;
 }
 
 .description {
-  text-align: center;
   color: var(--clr-text-secondary);
   font-size: 0.9;
   margin-bottom: 1.2rem;
+  text-align: center;
 }
 
 .form {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
   width: 100%;
 }
 
 .input {
-  width: 100%;
-  height: 3rem;
+  background-color: var(--clr-bg-tertiary);
   border-radius: 0.5rem;
   border: 1px solid var(--clr-border-primary);
-  background-color: var(--clr-bg-tertiary);
-  padding: 0.5rem;
-  margin-bottom: 1rem;
   font-size: 1rem;
+  height: 3rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  width: 100%;
 }
 
 .input:focus {
-  outline: none;
   border-bottom: 3px solid var(--clr-accent-primary);
+  outline: none;
 }
 
 .input::placeholder {
@@ -56,15 +56,15 @@
 }
 
 .textArea {
-  width: 100%;
-  height: 6rem;
+  background-color: var(--clr-bg-tertiary);
   border-radius: 0.5rem;
   border: 1px solid var(--clr-border-primary);
-  background-color: var(--clr-bg-tertiary);
-  padding: 0.5rem;
-  margin-bottom: 1rem;
-  resize: none;
   font-size: 1rem;
+  height: 6rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  resize: none;
+  width: 100%;
 }
 
 .textArea::placeholder {
@@ -77,24 +77,24 @@
 }
 
 .icon {
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-  font-size: 2.5rem;
   color: var(--clr-accent-primary);
+  font-size: 2.5rem;
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
 }
 
 .button {
-  width: 100%;
-  height: 3rem;
+  background-color: var(--clr-accent-primary);
   border-radius: 0.5rem;
   border: 1px solid var(--clr-border-primary);
-  background-color: var(--clr-accent-primary);
   color: var(--clr-text-neutral);
+  cursor: pointer;
   font-size: 1rem;
   font-weight: 600;
-  cursor: pointer;
+  height: 3rem;
   transition: var(--transition-fast);
+  width: 100%;
 }
 
 .button:hover {

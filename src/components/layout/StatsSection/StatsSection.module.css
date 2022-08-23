@@ -1,16 +1,16 @@
 .statsSection {
-  height: 20rem;
+  align-items: center;
   background-color: var(--clr-bg-tertiary);
   display: flex;
   flex-direction: column;
-  align-items: center;
+  height: 20rem;
   justify-content: center;
   margin: 8rem 0;
 }
 
 .list {
-  display: flex;
   align-items: center;
+  display: flex;
   justify-content: space-between;
 }
 
@@ -24,8 +24,8 @@
 
   .list {
     display: grid;
-    grid-template-columns: 1fr 1fr;
     gap: 1rem;
+    grid-template-columns: 1fr 1fr;
     justify-items: center;
   }
 }

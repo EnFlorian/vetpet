@@ -1,23 +1,23 @@
+import AppointmentModal from "./AppointmentModal/AppointmentModal";
+import BlogCard from "./BlogCard/BlogCard";
 import HeroCard from "./InfoCard/InfoCard";
+import InfoCard from "./InfoCard/InfoCard";
+import NotificationModal from "./NotificationModal/NotificationModal";
+import ScheduleCard from "./ScheduleCard/ScheduleCard";
 import SectionHeader from "./SectionHeader/SectionHeader";
 import ServiceCard from "./ServiceCard/ServiceCard";
-import TeamMemberCard from "./TeamMemberCard/TeamMemberCard";
-import InfoCard from "./InfoCard/InfoCard";
-import BlogCard from "./BlogCard/BlogCard";
-import ScheduleCard from "./ScheduleCard/ScheduleCard";
 import StatsCard from "./StatsCard/StatsCard";
-import AppointmentModal from "./AppointmentModal/AppointmentModal";
-import NotificationModal from "./NotificationModal/NotificationModal";
+import TeamMemberCard from "./TeamMemberCard/TeamMemberCard";
 
 export {
+  AppointmentModal,
+  BlogCard,
   HeroCard,
+  InfoCard,
+  NotificationModal,
+  ScheduleCard,
   SectionHeader,
   ServiceCard,
-  TeamMemberCard,
-  InfoCard,
-  BlogCard,
-  ScheduleCard,
   StatsCard,
-  AppointmentModal,
-  NotificationModal,
+  TeamMemberCard,
 };

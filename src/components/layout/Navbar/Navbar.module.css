@@ -1,22 +1,22 @@
 .navbar {
-  background-color: var(--clr-bg-secondary);
-  height: var(--navbar-height);
   align-items: center;
+  background-color: var(--clr-bg-secondary);
   display: flex;
+  height: var(--navbar-height);
   position: sticky;
   top: 0;
   z-index: 999;
 }
 
 .wrapper {
-  display: flex;
   align-self: center;
+  display: flex;
   justify-content: space-between;
 }
 
 .logo {
-  display: flex;
   align-items: center;
+  display: flex;
 }
 
 .icon {
@@ -25,18 +25,18 @@
 }
 
 .menu {
-  display: flex;
   align-self: center;
+  display: flex;
   justify-content: space-between;
 }
 
 .link {
   color: var(--clr-text-primary);
-  text-decoration: none;
+  cursor: pointer;
   font-size: 1.2rem;
   font-weight: 600;
   padding: 0.5rem 1rem;
-  cursor: pointer;
+  text-decoration: none;
   transition: var(--transition-fast);
 }
 
@@ -56,12 +56,12 @@
   }
 
   .mobileMenu {
+    align-items: center;
+    cursor: pointer;
     display: block;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
     font-size: 3rem;
-    cursor: pointer;
+    justify-content: space-between;
   }
 
   .mobileMenu:hover {
